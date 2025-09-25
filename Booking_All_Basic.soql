@@ -1,0 +1,2 @@
+// Fetch all Bookings with basic info
+SELECT Id, Name, Status__c, Booking_Amount__c FROM Booking__c

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Bookings" icon-name="standard:booking">
+        <template if:true={bookings}>
+            <ul>
+                <template for:each={bookings} for:item="booking">
+                    <li key={booking.Id}>
+                        {booking.Name} - Status: {booking.Status__c} - Guests: {booking.Number_of_Guests__c}
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template if:false={bookings}>
+            <p>No bookings available</p>
+        </template>
+    </lightning-card>
+</template>
