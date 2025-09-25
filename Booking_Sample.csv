@@ -1,0 +1,3 @@
+Booking_Name,Location__c,Capacity__c,Available__c,Price_per_Hour__c,Amount__c,Start_DateTime__c,End_DateTime__c,Venue__c,Customer__c,Booking_Amount__c,Number_of_Guests__c,Status__c,Conflict__c,Payment_Status__c,Contact__c
+Booking A,Bangalore,100,Yes,500,2000,2025-10-01 10:00,2025-10-01 12:00,Hall A,John Doe,2000,4,Pending,No,Unpaid,John Doe
+Booking B,Chennai,150,Yes,800,2400,2025-10-02 14:00,2025-10-02 17:00,Hall B,Jane Smith,2400,6,Confirmed,No,Paid,Jane Smith
