@@ -1,0 +1,9 @@
+{
+  "bookingId": "BKG-1001",
+  "venueId": "VEN-2001",
+  "customerId": "CUST-3001",
+  "startDate": "2025-10-10T18:00:00Z",
+  "endDate": "2025-10-10T22:00:00Z",
+  "amount": 500.00,
+  "status": "Confirmed"
+}
